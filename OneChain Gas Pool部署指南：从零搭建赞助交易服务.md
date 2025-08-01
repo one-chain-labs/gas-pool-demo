@@ -318,7 +318,7 @@ yarn add @onelabs/sui
 
 **完整示例项目**：
 上述代码的完整可运行版本可以在以下仓库中找到：
-https://github.com/simon-onelabs/gas-pool-demo
+https://github.com/one-chain-labs/gas-pool-demo.git
 
 该项目包含：
 - 完整的 Gas Pool 集成示例
