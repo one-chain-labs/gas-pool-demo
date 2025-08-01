@@ -1,0 +1,26 @@
+{
+  "name": "gas-pool-demo",
+  "version": "1.0.0",
+  "description": "OneChain Gas Pool使用演示项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js",
+    "setup": "yarn install"
+  },
+  "packageManager": "yarn@1.22.19",
+  "keywords": [
+    "onechain",
+    "gas-pool",
+    "blockchain",
+    "transaction-sponsorship"
+  ],
+  "author": "simon@onelabs.cc",
+  "license": "MIT",
+  "dependencies": {
+    "@onelabs/sui": "^1.26.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
