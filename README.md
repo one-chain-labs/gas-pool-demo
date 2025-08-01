@@ -32,6 +32,7 @@ export GAS_STATION_AUTH="your-secret-token" && ./one-gas-station --config-path s
 
 ### 3. 运行示例
 ```bash
+cd ../
 yarn start
 # 或
 node index.js
