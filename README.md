@@ -38,6 +38,16 @@ yarn start
 node index.js
 ```
 
+```bash
+# 扩展笔记
+# 发起未签名交易 示例
+one client switch --address dd-wallet
+one client ptb --assign sender @0xdddddb1661e1523bd4a9ce826a049110d459ff0c186507eadd2c0b075ca1cd8a --move-call 0x2::tx_context::epoch --gas-budget 10000000 --serialize-unsigned-transaction
+
+# 发起签名交易 示例
+one client ptb --assign sender @0xdddddb1661e1523bd4a9ce826a049110d459ff0c186507eadd2c0b075ca1cd8a --move-call 0x2::tx_context::epoch --gas-budget 10000000 --serialize-signed-transaction
+```
+
 ### 4. 使用流程
 
 1. **预留 Gas** - 向 Gas Pool 请求预留指定数量的 Gas
