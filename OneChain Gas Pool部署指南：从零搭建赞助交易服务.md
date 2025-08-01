@@ -172,6 +172,7 @@ INFO one_gas_station::rpc::server: listening on 0.0.0.0:9527
 - 识别到赞助地址和可用资金
 - Gas pool已初始化完成
 - RPC服务正在端口`9527`监听
+
 服务启动成功后，我们来验证一下核心功能是否正常工作。
 
 ### 功能验证
