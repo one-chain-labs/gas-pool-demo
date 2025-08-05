@@ -51,7 +51,7 @@ one client ptb --assign sender @0xdddddb1661e1523bd4a9ce826a049110d459ff0c186507
 ### 4. 使用流程
 
 1. **预留 Gas** - 向 Gas Pool 请求预留指定数量的 Gas
-2. **创建交易** - 使用 Sui SDK 构建交易，设置正确的 Gas Owner
+2. **创建交易** - 使用 One SDK 构建交易，设置正确的 Gas Owner
 3. **签名交易** - 用户使用私钥签名交易
 4. **执行交易** - 提交到 Gas Pool 完成赞助交易
 
