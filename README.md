@@ -1,4 +1,4 @@
-# OneChain Gas Pool示例项目
+# OneChain Gas Pool使用DEMO
 
 本DEMO主要是演示前端如何集成OneChain Gas Pool服务进行赞助交易。
 
