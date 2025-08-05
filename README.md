@@ -57,7 +57,7 @@ one client ptb --assign sender @0xdddddb1661e1523bd4a9ce826a049110d459ff0c186507
 
 ## ✅ 成功示例
 
-运行成功时，您将看到类似输出：
+运行成功时，可以看到类似输出：
 
 ```
 OneChain Gas Pool赞助交易示例
@@ -92,7 +92,7 @@ Gas预留成功:
 
 - `POST /v1/reserve_gas` - 预留 Gas 币
 - `POST /v1/execute_tx` - 执行赞助交易
-- `GET /v1/support_address` - 查询支持地址·
+- `GET /v1/support_address` - 查询支持地址
 
 ##  相关链接
 
